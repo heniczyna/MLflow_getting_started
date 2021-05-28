@@ -30,3 +30,6 @@ This is example how to download the dataset, create the model, **run metrics log
 Using automatic logging with `mlflow.<ml_framework>.autolog()` you get for example `saved_model.pb` (`SavedModel` format) in example location:<br>
 `your_project_location\mlruns\10\3ef10256f1d14af38820373292059026\artifacts\model\data`<br>
 for further processing, such as conversion to TensorFlow Lite model.
+
+> **Additional info**
+> * no local copy of the repo
