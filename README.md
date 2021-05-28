@@ -20,7 +20,7 @@
 ![mlflow_terminal](/images/mlflow_terminal.png)
     * Double-check if you have `venv379_mlflow` activated again, if not please use:<br>
     `workon venv379_mlflow`
-8. Install Tensorflow with `pip install tensorflow`
+8. Install TensorFlow with `pip install tensorflow`
 9. Type `python tf_fashion_mnist.py` (or use `Code Runner` extension to `Run Code`)
 10. Go back to your browser `http://127.0.0.1:5000`, refresh if necessary, and see how content has been changed
 
@@ -29,4 +29,4 @@ This is example how to download the dataset, create the model, **run metrics log
 
 Using automatic logging with `mlflow.<ml_framework>.autolog()` you get for example `saved_model.pb` (`SavedModel` format) in example location:<br>
 `your_project_location\mlruns\10\3ef10256f1d14af38820373292059026\artifacts\model\data`<br>
-for further processing.
+for further processing, such as conversion to TensorFlow Lite model.
