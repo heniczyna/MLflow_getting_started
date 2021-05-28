@@ -23,3 +23,10 @@
 8. Install Tensorflow with `pip install tensorflow`
 9. Type `python tf_fashion_mnist.py` (or use `Code Runner` extension to `Run Code`)
 10. Go back to your browser `http://127.0.0.1:5000`, refresh if necessary, and see how content has been changed
+
+# Overview of `tf_fashion_mnist.py`
+This is example how to download the dataset, create the model, **run metrics logging provided by MLflow** and finally train the model. All logged metrics you can verify at `http://127.0.0.1:5000`.
+
+Using automatic logging with `mlflow.<ml_framework>.autolog()` you get for example `saved_model.pb` (`SavedModel` format) in example location:<br>
+`your_project_location\mlruns\10\3ef10256f1d14af38820373292059026\artifacts\model\data`<br>
+for further processing.
